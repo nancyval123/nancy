@@ -1,0 +1,464 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.1px;
+}
+
+
+:root{
+    --primary-color:#eb5757;
+    --secondary-color:#222;
+    --light-color:#f9f9f9;
+    --dark-color:#333;
+}
+
+
+
+
+header{
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+    z-index: 1;
+}
+
+
+
+header .covid{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+header .covid button{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+header .covid p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .menu{
+    width: 100%;
+    height: 75px;
+    padding: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+    font-size: 90%;
+    
+}
+
+header .menu div{
+    width: 500px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+header .menu div a{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+    
+}
+
+header .menu div a:hover{
+    background-color: var(--secondary-color);
+    
+}
+
+header .menu div button{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-image: url("./img/9025885_shopping_cart_icon.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    position: relative;
+    background-image:url(carrocompra.png);
+    
+}
+
+header .menu div button span{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+
+}
+
+
+
+
+main{
+    padding-top: 150px;
+}
+
+.cajas{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+
+}
+
+
+.cajas div {
+ 
+    width: 350px;
+    height: 350px;
+    border-radius: 2%;
+    color: var(--light-color);
+     font-size: 38px;
+    font-family: sans-serif;
+
+
+}
+.cajas div h3{
+    
+    padding-left: 60px;
+padding-top: 50px;
+font-family: sans-serif;
+}
+
+.numeros{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--light-color);
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+
+
+ .caja1{
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+
+.caja2{
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+
+.caja3{
+    background-color: var(--secondary-color);
+    text-align: center;
+   
+
+}
+
+.texto{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    max-width: 350px;
+    max-height: 350px;
+    color: var(--secondary-color);
+}
+
+
+.calis{
+    
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--light-color);
+    border-color: var(--light-color);
+    transition: all 0.5s;
+
+} 
+
+main .calis:hover{
+    background-color: var(--secondary-color);
+    
+}
+main .primera{
+    height: 600px;
+    background-image: url("playa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:#f9f9f9;  
+    padding-left: 60px;
+    padding-top: 120px;
+}
+main .segunda{
+    height: 600px;
+    background-image: url("playa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:#f9f9f9;  
+    padding-left: 60px;
+    padding-top: 120px;
+    margin-top: 100px;
+}
+main .segunda h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 500px;
+    max-height: 300px;
+    line-height: 50px;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+main .segunda p{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 500px;
+    max-height: 300px;
+    line-height: 30px;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+main .segunda button{
+    margin-left: 1000px;
+    margin-top: 20px;
+    
+}
+main .primera h1{
+    padding-left: 40px;
+    padding-top: 30px;
+    max-width: 400px;
+    max-height: 400px;
+    font-size: 50px;  
+}
+
+main .primera p{
+    text-align: justify, center;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 30px;
+    max-width: 340px;
+    max-height: 500px;
+    line-height: 25px;
+}
+
+main .primera button{
+    border-radius: 10%;
+    padding-left: 40px;
+    padding-top: 40px;
+    max-width: 400px;
+    max-height: 200px;
+    color: var(--secondary-color);
+    
+    
+}
+
+
+.shop{
+    background-color:var(--secondary-color);
+    display: flex;
+    justify-content: left;
+    display: inline-block;
+    width: 950px;
+    height: 600px;
+    border-radius: 1%;
+    color: var(--light-color);
+    font-size: 30px;
+    margin-left: 320px;
+    margin-bottom: 60px;
+    
+}
+.shop p{
+
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify, center;
+    max-width: 400px;
+    max-height: 300px;
+    line-height: 25px;
+    margin-left: 370px;
+    margin-top: 30px;
+}
+.shop h2{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    max-width: 400px;
+    max-height: 300px;
+    line-height: 25px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+main .general{
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+main .shopproducts
+{
+    margin-left: 40px;
+}
+
+.cajauno{
+    border-radius: 1%;
+    background-repeat: no-repeat;
+    background-image: url(campamento.jpg);
+    width: 400px;
+    height: 500px;
+    
+    
+}
+.cajados{
+    border-radius: 1%;
+    background-repeat: no-repeat;
+    background-image: url(campamento.jpg);
+    width: 400px;
+    height: 500px;
+    
+}
+.cajatres{
+    border-radius: 1%;
+    background-repeat: no-repeat;
+    background-image: url(campamento.jpg);
+    width: 400px;
+    height: 500px;
+    
+}
+.cajatres button{
+    width: 80px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 250px;
+    border-radius: 5px;
+}
+.white{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+    color: #222222;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+main .view
+{
+    margin-left: 550px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+footer{
+    padding-bottom: 0%;
+    padding: 0 100px;
+    height: 200px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    align-items: center;
+}
+.logo{
+    padding-left: 20px;
+    position: relative;
+    padding-top: 10vh;
+}
+.copyright{
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    color: var(--light-color);
+    left: 8px;
+}
+
+footer .redes .redsocial{
+    width: 45px;
+    height: 30px;
+    left: 90%;
+    bottom: 25px;
+    border-radius: 5px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    position: relative;
+    display: inline-block;
+}
+
+main .ways .parrafo{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 600px;
+    max-height: 100px;
+    line-height: 20px;
+    margin-left: 700px;
+    margin-top: 0;
+    color: var(--secondary-color);
+}
+
+main .ways span{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 300px;
+    max-height: 100px;
+    line-height: 25px;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+main .ways h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 500px;
+    max-height: 200px;
+    line-height: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: var(--secondary-color);
+}
+
+
+
+
+    
